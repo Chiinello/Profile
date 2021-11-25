@@ -1,7 +1,15 @@
+*{
+   box-sizing: border-box;
+   margin: 0em;
+   padding: 0em; 
+}
 body{
-    background-image: url("Background_url");
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    background: url(images/Background.jpg) no-repeat;
+
+    background-image: url("images/Background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+   
 }
