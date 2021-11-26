@@ -4,7 +4,7 @@
    padding: 0em; 
 }
 body{
-    min-height: 100vh;
+    min-height: 100em;
     margin: 0;
     padding: 0;
 
@@ -12,4 +12,34 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
    
+}
+#picture{
+        border-radius: 40%;
+        margin: auto;
+        display: block;
+}
+.card{
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+button{
+    background-color:white ;
+    border: 0em;
+    color: black;
+    padding:0em ;
+   
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 60px -16px;
 }
